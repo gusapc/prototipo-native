@@ -77,8 +77,8 @@ export default class AnalysisScreen extends Component {
 		return (
 			<View style={styles.container}>
 				<View style={{flex: .4, flexDirection: 'row'}}>
-					<View style={[styles.centerInputs2]}>
-						<View style={[styles.centerInputs]}>
+					<View style={[styles.centerInputs2, {flexDirection: 'row'}]}>
+						<View style={[styles.centerInputs, {height: 100, width: 100}]}>
 							<TinyLabelText 
 								text="Presupuesto de inversión"
 							/>
